@@ -25,7 +25,7 @@ public class CustomUserDetails implements UserDetails {
                 return userEntity.getRole();
             }
         });
-        return null;
+        return collection;
     }
 
     @Override
